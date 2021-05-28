@@ -5,7 +5,7 @@ public class Student {
     public Student(){
         System.out.println("No-Args constructor");
     }
-    //constractor with 1 param: String name
+    //constructor with 1 param: String name
     public Student(String name){
         System.out.println("name param constructor " + name);
     }
