@@ -7,6 +7,25 @@ public class address {
     private String country = "USA";
     private String street;
 
+    public address(){
+        System.out.println("Address constructor");
+        street = "Unknown street";
+        city = "Unknown";
+        state ="Unknown";
+        zipCode = "Unknown";
+
+
+
+    }
+    public address(String street, String city, String state, String zipCode){
+
+        this.street = street;
+        this.city =city;
+        this.state = state;
+        this.zipCode = zipCode;
+    }
+
+
 
     public String toString(){
         return street + ", " + city+ ", " + state + " " + zipCode;
