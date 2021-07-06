@@ -17,6 +17,13 @@ public class ElementTest {
         username.sendKeys("wooden spoon");
         username.click();
 
+        WebElementUtil.clickElement(loginLink);
+        WebElementUtil.clickElement(username);
+
+        WebElement login = WebElementUtil.getLinkWithText("login");
+        login.click();
+
+
     }
 
 

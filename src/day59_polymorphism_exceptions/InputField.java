@@ -2,6 +2,7 @@ package day59_polymorphism_exceptions;
 
 public class InputField implements WebElement{
     public static final String TAG_NAME= "input";
+
     public String getValue(){
         System.out.println("Getting value in the InputField ");
         return "selenium";
@@ -15,6 +16,7 @@ public class InputField implements WebElement{
 @Override
 public void click(){
     System.out.println("");
+    System.out.println("Clicking on input field");
 
 }
 @Override
